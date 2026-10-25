@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industry</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style/app.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="icons/fontawesome-free-7.3.1-web/css/all.css">
+    <!-- swiper css library -->
+    <link rel="stylesheet" href="swiperlibrary/swiperlibrarycss/swiper-bundle.min.css" />
+    <!-- seetAlert css library -->
+    <link rel="stylesheet" href="sweetAlertLibrary/sweetAlertLibraryCss/sweetalert2.min.css">
+</head>
+
+<body class="">
+    <!-- start header -->
+    <header class="flex  flex-col">
+        <section class="fixed top-0 left-0 right-0 z-50 w-full">
+            <!-- start top section -->
+            <div class="bg-[#222222] py-[10px] hidden xl:flex  ">
+                <div class="myContainer text-white flex justify-between items-center">
+                    <div>
+                        <ul class="flex gap-x-5">
+                            <li class="hover:text-[#FAB700] transition-all">
+                                <a href="#" class="">
+                                    <i class="fa-brands fa-facebook-f "></i>
+                                </a>
+                            </li>
+                            <li class="hover:text-[#FAB700] transition-all">
+                                <a href="#">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="hover:text-[#FAB700] transition-all">
+                                <a href="#">
+                                    <i class="fa-brands fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li class="hover:text-[#FAB700] transition-all">
+                                <a href="#">
+                                    <i class="fa-brands fa-behance"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="flex gap-x-5 font-poppins text-[12px]">
+                        <div>
+                            <a href="#">+* (**5) 0**-**90</a>
+                        </div>
+                        <div>
+                            <a href="#">h**lo@e***ple.com</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- end top section -->
+            <!-- start buttom section  -->
+            <div class="bg-white py-[20px] relative px-[35px] xl:px-[0px]">
+                <div class="myContainer flex justify-between items-center ">
+                    <div>
+                        <img src="imgs/imgi_1_logo.png" class="w-[130px] h-[30px]" alt="industry">
+                    </div>
+                    <div class="flex items-center ">
+                        <nav class="hidden xl:flex">
+                            <ul class="flex gap-x-5 items-center ">
+                                <li class="mySecondPcolor text-[12px] font-poppins">
+                                    <a href="#">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="mySecondPcolor text-[12px] font-poppins">
+                                    <a href="#">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="mySecondPcolor text-[12px] font-poppins">
+                                    <a href="#">
+                                        Service
+                                    </a>
+                                </li>
+                                <li class="mySecondPcolor text-[12px] font-poppins">
+                                    <a href="#">
+                                        Projects
+                                    </a>
+                                </li>
+                                <li class="mySecondPcolor relative  group text-[12px] font-poppins">
+                                    <a href="#">
+                                        BLOG
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <!-- start blog dropdown -->
+                                    <div
+                                        class="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute top-full">
+                                        <ul class="bg-white   p-[10px] w-[180px]   translate-y-6.5">
+                                            <li class="mySecondPcolor  pl-[7px] py-[10px]  text-[12px] font-poppins">
+                                                <a href="#">
+                                                    Blog Home
+                                                </a>
+                                            </li>
+                                            <li class="mySecondPcolor px-[7px] py-[10px]  text-[12px] font-poppins">
+                                                <a href="#">
+                                                    Blog Single
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- end blog dropdown -->
+                                </li>
+                                <li class="mySecondPcolor text-[12px] font-poppins">
+                                    <a href="#">
+                                        Contact
+                                    </a>
+                                </li>
+                                <li class="mySecondPcolor text-[12px] font-poppins">
+                                    <a href="#">
+                                        Elements
+                                    </a>
+                                </li>
+
+
+
+
+
+                            </ul>
+                        </nav>
+                        <!--start response nav -->
+                        <div class="absolute right-10 xl:hidden">
+                            <i
+                                class="meneuBtn  fa-solid fa-bars text-[#222222] cursor-pointer  w-[24px] h-[24px]  "></i>
+                        </div>
+                        <div
+                            class="bg-[#0F0F0F] navBarResponse  w-[260px] absolute fixed z-50 gap-y-10 flex flex-col justify-start -left-260 top-0 min-h-screen transition-all">
+                            <div class="text-white flex justify-end p-[16px] ">
+                                <i class="fa-solid fa-x closeResponseNavBtn cursor-pointer"></i>
+                            </div>
+                            <nav>
+                                <ul class="divide-y-1 divide-neutral-800 p-[15px] z-40">
+                                    <li
+                                        class="hover:text-[#fab700] py-[12px] font-poppins text-[13px] text-white transition-all">
+                                        <a href="#">
+                                            HOME
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="hover:text-[#fab700] py-[12px] font-poppins text-[13px] text-white transition-all">
+                                        <a href="#">
+                                            ABOUT
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="hover:text-[#fab700] py-[12px] font-poppins text-[13px] text-white transition-all">
+                                        <a href="#">
+                                            SERVICE
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="hover:text-[#fab700] py-[12px] font-poppins text-[13px] text-white transition-all">
+                                        <a href="#">
+                                            PROJECTS
+                                        </a>
+                                    </li>
+                                    <li class=" py-[12px] font-poppins text-[13px] text-white transition-all">
+                                        <div class="flex justify-between items-center">
+                                            <a href="#" class="hover:text-[#fab700]">
+                                                BLOG
+                                            </a>
+
+                                            <i
+                                                class="fa-solid cursor-pointer hover:text-[#fab700]  fa-angle-up dropUPInSidebarResponseBtn rotate-180"></i>
+
+                                        </div>
+                                        <!-- START BLOG RESPONSE DROP DOWN -->
+                                        <div class="dropDownInSidebarResponseBox hidden transition-all">
+                                            <div class="flex justify-start items-center">
+                                                <ul class="divide-y-1 divide-neutral-800 w-full pl-[20px] pt-[8px]">
+                                                    <li class="py-[12px]   hover:text-[#fab700]">
+                                                        <a href="" class="">
+                                                            Blog Home
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-[12px]   hover:text-[#fab700]">
+                                                        <a href="" class="">
+                                                            Blog Home
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- END BLOG RESPONSE DROP DOWN -->
+                                    </li>
+                                    <li
+                                        class="hover:text-[#fab700] py-[12px] font-poppins text-[13px] text-white transition-all">
+                                        <a href="#">
+                                            CONTACT
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="hover:text-[#fab700] py-[12px] font-poppins text-[13px] text-white transition-all">
+                                        <a href="#">
+                                            ELEMENTS
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!--end response nav -->
+                        <!-- start black layer -->
+                        <div class="bg-[#0000009a] fixed inset-0 blackLayer z-30 hidden blaclLayerRespone">
+                        </div>
+                        <!-- end black layer -->
+                    </div>
+                </div>
+            </div>
+            <!-- end buttom section  -->
+        </section>
+        <!-- start header img section -->
+        <section
+            class="headerImgSection bg-black/50 bg-[url(../imgs/imgi_38_header-bg.jpg)] bg-blend-overlay bg-center bg-no-repeat bg-cover h-[100vh] flex flex-col justify-center">
+            <div class="myContainer flex flex-col items-start sm:items-center justify-center  ">
+                <div class=" flex w-full max-w-[700px] px-4 flex-col items-center justify-center text-center">
+                    <div class="flex flex-col justify-center text-center">
+                        <span class="tracking-[2px] text-[12px] xl:text-[14px] font-poppins text-white">
+                            Don’t look further, here is the key
+                        </span>
+                    </div>
+                    <div class="flex flex-col items-center justify-center text-center my-[10px]">
+                        <h2 class="text-white text-[32px] sm:text-[40px] xl:text-[48px] font-poppins w-full">
+                            We’re Your Industrial Solution
+                        </h2>
+                    </div>
+                    <div class="flex flex-col justify-center text-center w-full max-w-[600px] mb-[14px]">
+                        <p class="text-[12px] xl:text-[14px] text-white font-poppins">
+                            Engineering, construction and maintenance for factories, warehouses and utility plants,
+                            delivered safely, on time and to specification.
+                        </p>
+                    </div>
+                    <div class="flex flex-col justify-center text-center">
+                        <button
+                            class="bg-[#FAB700] hover:bg-transparent hover:text-white hover:border-white transition-all py-[8px] px-[16px] xl:py-[12px] xl:px-[24px] border border-[1px] border-transparent text-center cursor-pointer text-[14px] font-poppins text-[#222]">
+                            GET STARTED
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end header img section -->
+    </header>
+    <!-- end header -->
+
+    <!-- start service -->
+    <section class="service flex justify-center items-center py-[110px] ">
+        <div class="myContainer flex text-center justify-center">
+            <div class="grid  w-full grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                <!-- start service sec -->
+                <div class="flex flex-col items-center text-center ">
+                    <div
+                        class=" text-center  hover:bg-[#FAB700] border border-[1px] p-[18px] border-[#A7A7A7] text-[#A7A7A7] hover:text-white">
+                        <a href="" class="  p-[15px] "><i class="fa-solid fa-wand-magic-sparkles"></i></a>
+                    </div>
+                    <div class="my-[20px]">
+                        <h3 class="font-poppins text-[18px]">Maintenance</h3>
+                    </div>
+                    <div class="text-center  w-[75%]">
+                        <p class="text-[#A7A7A7] font-poppins text-[14px]  text-center">
+                            Planned and emergency maintenance for pumps, valves, conveyors and electrical systems, so
+                            your production lines keep running.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center text-center ">
+                    <div
+                        class=" text-center  hover:bg-[#FAB700] border border-[1px] p-[18px] border-[#A7A7A7] text-[#A7A7A7] hover:text-white">
+                        <a href="" class="  p-[15px] "><i class="fa-solid fa-rocket"></i></a>
+                    </div>
+                    <div class="my-[20px]">
+                        <h3 class="font-poppins text-[18px]">Residential Service</h3>
+                    </div>
+                    <div class="text-center  w-[75%]">
+                        <p class="text-[#A7A7A7] font-poppins text-[14px]  text-center">
+                            Heating, plumbing and electrical upgrades for apartment blocks and housing projects, carried
+                            out safely and to code.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center text-center ">
+                    <div
+                        class=" text-center  hover:bg-[#FAB700] border border-[1px] p-[18px] border-[#A7A7A7] text-[#A7A7A7] hover:text-white">
+                        <a href="" class="  p-[15px] "><i class="fa-solid fa-bug"></i></a>
+                    </div>
+                    <div class="my-[20px]">
+                        <h3 class="font-poppins text-[18px]">Commercial Service</h3>
+                    </div>
+                    <div class="text-center  w-[75%]">
+                        <p class="text-[#A7A7A7] font-poppins text-[14px]  text-center">
+                            Fit-outs, HVAC and power distribution for offices, retail units and warehouses, planned
+                            around your opening hours.
+                        </p>
+                    </div>
+                </div>
+                <!-- end service sec -->
+            </div>
+        </div>
+    </section>
+    <!-- end service -->
+
+    <!-- start form -->
+    <section class="bg-[#F9F9FF] py-[150px]">
+        <div class="myContainer flex flex-col md:flex-row justify-between">
+            <!-- form left -->
+            <div class="w-full md:w-[55%] flex flex-col mb-[50px] xl:mb-[0px]">
+                <div>
+                    <span class="text-[#A66E00] text-[14px] font-poppins">
+                        Engineering partners since 1998
+                    </span>
+                </div>
+                <div class="pb-[30px]">
+                    <p class="text-[36px] font-poppinsSemi w-[80%]">
+                        We build what keeps
+                        industry moving
+                    </p>
+                </div>
+                <div class="pb-[10px]">
+                    <span class="text-[14px] font-poppins">
+                        We are here to listen to you and deliver excellence
+                    </span>
+                </div>
+                <div class="pb-[30px]">
+                    <p class="text-[#6b6b6b] text-[14px] font-poppins w-[65%] xl:w-[100%]">
+                        For more than twenty years we have designed, built and maintained the places where things are
+                        made: factories, warehouses, workshops and utility plants. Our engineers, site managers and
+                        technicians work as one team from the first survey to the final handover, so you deal with one
+                        contractor, one schedule and one point of contact. Every project is planned around safety,
+                        quality and the hours your business needs to keep running.
+                    </p>
+                </div>
+                <div>
+                    <button
+                        class="text-black cursor-pointer py-[10px] px-[50px] hover:text-[#A66E00] bg-[#FAB700] hover:bg-white border border-[1px] border-transparent hover:border-[#A66E00]">
+                        Get Started Now
+                    </button>
+                </div>
+            </div>
+            <!-- form right -->
+            <div
+                class="bg-black/80 flex flex-col p-[30px] w-full md:w-[40%] bg-[url(../imgs/imgi_40_form-bg.jpg)] bg-blend-overlay bg-center bg-no-repeat bg-cover">
+                <div class="mb-[20px]">
+                    <span class="text-white text-[18px] font-poppins ">
+                        Request a Quote
+                    </span>
+                </div>
+                <div class="text-white formSelect border-[1px] border-white p-[2px] my-[4px] w-[100%]">
+                    <!-- <label for="Service">Select Service</label> -->
+                    <select id="Service" name="Service" class="w-[100%]">
+                        <option value="Select Service" class="text-black">Select Service</option>
+                        <option value="Maintenance" class="text-black">Maintenance</option>
+                        <option value="Residential Service" class="text-black">Residential Service</option>
+                        <option value="Commercial Service" class="text-black">Commercial Service</option>
+                        <option value="Industrial Engineering" class="text-black">Industrial Engineering</option>
+                    </select>
+                </div>
+                <div class="text-white">
+                    <form action="">
+                        <input type="name" placeholder="Name"
+                            class="border-[1px] border-white p-[2px] my-[4px] w-[100%]">
+                        <input type="number" placeholder="Phone Number"
+                            class="border-[1px] border-white p-[2px] my-[4px] w-[100%]">
+                        <input type="email" placeholder="Email Address"
+                            class="border-[1px] border-white p-[2px] my-[4px] w-[100%]">
+                        <textarea name="" id="" placeholder="Message"
+                            class="border-[1px] border-white p-[2px] my-[4px] w-[100%]"></textarea>
+                        <button type="submit"
+                            class="text-black cursor-pointer py-[10px] px-[50px]  bg-[#FAB700]  border border-[1px] border-transparent  my-[4px] w-[100%]">Request
+                            Free Quote</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end form -->
+
+    <!-- start img box component 1 -->
+    <section class="py-[110px]">
+        <div class="myContainer flex flex-col gap-[50px] justify-center">
+            <!-- start top sec component 1 -->
+            <div class="flex flex-col justify-center text-center w-full mx-w-[760px] mx-auto items-center ">
+                <div>
+                    <p class="text-[36px] font-poppinsSemi w-full text-center">
+                        Our Core Market Sectors
+                    </p>
+                </div>
+                <div>
+                    <p class="text-[14px] font-poppins text-[#6B7474] w-full text-center">
+                        The industries we have served for more than twenty years.
+                    </p>
+                </div>
+            </div>
+            <!-- end top sec component 1 -->
+            <!-- start bottom sec component 1 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px]">
+                <!-- start img box 1 -->
+                <div
+                    class="flex w-full imgBox flex-col gap-[20px] justify-start text-center cursor-pointer">
+                    <div class="overflow-hidden">
+                        <img class="imgComp transition-all w-full aspect-[360/250] object-cover" src="imgs/imgi_2_s1.jpg" alt="Engineering">
+                    </div>
+                    <div class="text-start">
+                        <h3 class="font-poppins imgDes text-[18px]">
+                            Automotive Engineering
+                        </h3>
+                    </div>
+                    <div class="text-start">
+                        <p class="font-poppins text-[14px] text-[#6B7474] w-full">
+                            Assembly lines, paint shops and test cells for vehicle and parts makers, from layout to
+                            commissioning.
+                        </p>
+                    </div>
+                </div>
+                <!-- end img box 1 -->
+                <!-- start img box 2 -->
+                <div
+                    class="flex w-full imgBox flex-col gap-[20px] justify-start text-center cursor-pointer">
+                    <div class="overflow-hidden">
+                        <img class="imgComp transition-all w-full aspect-[360/250] object-cover" src="imgs/imgi_3_s2.jpg" alt="Engineering">
+                    </div>
+                    <div class="text-start">
+                        <h3 class="font-poppins imgDes text-[18px]">
+                            Construction & Engineering
+                        </h3>
+                    </div>
+                    <div class="text-start">
+                        <p class="font-poppins text-[14px] text-[#6B7474] w-full">
+                            Steel structures, foundations and site services for plants, depots and logistics centres.
+                        </p>
+                    </div>
+                </div>
+                <!-- end img box 2 -->
+                <!-- start img box 3 -->
+                <div
+                    class="flex w-full imgBox flex-col gap-[20px] justify-start text-center cursor-pointer">
+                    <div class="overflow-hidden">
+                        <img class="imgComp transition-all w-full aspect-[360/250] object-cover" src="imgs/imgi_4_s3.jpg" alt="Engineering">
+                    </div>
+                    <div class="text-start">
+                        <h3 class="font-poppins imgDes text-[18px]">
+                            Industrial Engineering
+                        </h3>
+                    </div>
+                    <div class="text-start">
+                        <p class="font-poppins text-[14px] text-[#6B7474] w-full">
+                            Process piping, tanks and utilities for food, chemical and pharmaceutical production.
+                        </p>
+                    </div>
+                </div>
+                <!-- end img box 3 -->
+            </div>
+            <!-- end bottom sec component 1 -->
+        </div>
+    </section>
+    <!-- end img box component 1 -->
+
+    <!-- start counter section -->
+    <section
+        class="py-[110px]  bg-black/55 bg-[url(../imgs/imgi_43_fact.jpg)] bg-blend-overlay bg-center bg-cover bg-no-repeat">
+        <div class="myContainer flex justify-start md:justify-center">
+            <div
+                class="grid w-full grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-10">
+                <!-- start item counter1 -->
+                <div class="flex flex-col text-center items-center gap-[20px]">
+                    <div
+                        class="text-center flex items-center justify-center border border-1 rounded-[100%] border-[#FAB700] ">
+                        <!-- start counter -->
+                        <p
+                            class="text-black w-[90px] h-[90px] m-[24px] flex items-center justify-center text-center rounded-[50px]  bg-[#FAB700] font-poppinsSemi text-[24px]">
+                            <span data-purecounter-start="0" data-purecounter-end="2" class="purecounter ">0</span>K+
+                        </p>
+                        <!-- end counter -->
+                    </div>
+                    <div>
+                        <span class="text-[18px] font-poppins text-white">
+                            Projects Completed
+                        </span>
+                    </div>
+                </div>
+                <!-- end item counter1 -->
+                <!-- start item counter2 -->
+                <div class="flex flex-col text-center items-center gap-[20px]">
+                    <div
+                        class="border border-1 rounded-[100%] border-[#FAB700]  text-center flex items-center justify-center">
+                        <!-- start counter -->
+                        <p
+                            class="text-black rounded-[50px] bg-[#FAB700] w-[90px] h-[90px] m-[24px] flex items-center justify-center text-center font-poppinsSemi text-[24px]">
+                            <span data-purecounter-start="0" data-purecounter-decimals="1" data-purecounter-end="5.5" class="purecounter ">0</span>K
+                        </p>
+                        <!-- end counter -->
+                    </div>
+                    <div>
+                        <span class="text-[18px] font-poppins text-white">
+                            Total Employees
+                        </span>
+                    </div>
+                </div>
+                <!-- end item counter2 -->
+                <!-- start item counter3 -->
+                <div class="flex flex-col text-center items-center gap-[20px]">
+                    <div
+                        class=" text-center flex items-center justify-center border border-1 rounded-[100%] border-[#FAB700] ">
+                        <!-- start counter -->
+                        <p
+                            class="text-black w-[90px] h-[90px] m-[24px] flex items-center justify-center text-center rounded-[50px] bg-[#FAB700]  font-poppinsSemi text-[24px]">
+                            <span data-purecounter-start="0" data-purecounter-end="959" class="purecounter ">0</span>
+                        </p>
+                        <!-- end counter -->
+                    </div>
+                    <div>
+                        <span class="text-[18px] font-poppins text-white">
+                            Happy Clients
+                        </span>
+                    </div>
+                </div>
+                <!-- end item counter3 -->
+                <!-- start item counter4 -->
+                <div class="flex flex-col text-center items-center gap-[20px]">
+                    <div
+                        class=" text-center flex items-center justify-center border border-1 rounded-[100%] border-[#FAB700] ">
+                        <!-- start counter -->
+                        <p
+                            class="text-black w-[90px] h-[90px] m-[24px] flex items-center justify-center text-center rounded-[50px] bg-[#FAB700]  font-poppinsSemi text-[24px]">
+                            <span data-purecounter-start="0" data-purecounter-end="367" class="purecounter ">0</span>
+                        </p>
+                        <!-- end counter -->
+                    </div>
+                    <div>
+                        <span class="text-[18px] font-poppins text-white">
+                            Service Calls Answered
+                        </span>
+                    </div>
+                </div>
+                <!-- end item counter4 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end counter section -->
+
+    <!-- start finished projets -->
+    <section class="py-[110px]">
+        <div class="myContainer flex flex-col justify-center">
+            <div class="flex pb-[50px] flex-col justify-center text-center w-full mx-w-[760px] mx-auto items-center">
+                <div>
+                    <p class="text-[36px] font-poppinsSemi w-full text-center">
+                        Latest Finished Projects
+                    </p>
+                </div>
+                <div>
+                    <p class="text-[14px] font-poppins text-[#6B7474] w-full text-center">
+                        Recent work for plants, warehouses and workshops.
+                    </p>
+                </div>
+            </div>
+            <div class="flex w-full flex-col gap-[20px]">
+                <div
+                    class=" flex  xl:justify-between items-start xl:flex-row gap-y-[40px] xl:gap-y-[0px] xl:items-center flex-col justify-center">
+                    <div
+                        class="w-full flex justify-center  bg-[url(../imgs/imgi_5_p1.jpg)] cursor-pointer bg-center bg-no-repeat bg-cover hover:bg-white/30 transition-all hover:bg-blend-overlay xl:w-[65%] h-[280px] sm:h-[380px]">
+                        <!-- <img class=" cursor-pointer" src="imgs/imgi_5_p1.jpg" alt=""> -->
+                    </div>
+                    <div
+                        class=" flex justify-center xl:justify-end bg-[url(../imgs/imgi_6_p2.jpg)] cursor-pointer bg-center bg-no-repeat bg-cover hover:bg-white/30 transition-all hover:bg-blend-overlay w-full xl:w-[32%] h-[280px] sm:h-[380px]">
+                        <!-- <img class=" cursor-pointer" src="imgs/imgi_6_p2.jpg" alt=""> -->
+                    </div>
+                </div>
+                <div
+                    class="flex  flex-col xl:flex-row items-center justify-center gap-y-[40px] xl:gap-y-0 xl:gap-x-[20px]">
+                    <div
+                        class="bg-[url(../imgs/imgi_7_p3.jpg)] cursor-pointer bg-center bg-no-repeat bg-cover hover:bg-white/30 transition-all hover:bg-blend-overlay h-[280px] sm:h-[380px] flex-1 min-w-0 w-full xl:w-auto">
+                        <!-- <img class="cursor-pointer" src="imgs/imgi_7_p3.jpg" alt=""> -->
+                    </div>
+                    <div
+                        class="bg-[url(../imgs/imgi_8_p4.jpg)] cursor-pointer bg-center bg-no-repeat bg-cover hover:bg-white/30 transition-all hover:bg-blend-overlay h-[280px] sm:h-[380px] flex-1 min-w-0 w-full xl:w-auto">
+                        <!-- <img class="cursor-pointer" src="imgs/imgi_8_p4.jpg" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end finished projets -->
+
+    <!-- start feedback -->
+    <section
+        class="bg-black/70 bg-[url(../imgs/imgi_45_feedback-bg.jpg)] bg-blend-overlay bg-cover bg-center bg-no-repeat py-[110px]">
+        <div class="myContainer flex flex-col items-center gap-[20px]">
+            <!-- top -->
+            <div>
+                <div
+                    class="flex pb-[50px] flex-col justify-center text-center w-full mx-w-[760px] mx-auto items-center">
+                    <div>
+                        <p class="text-[36px] font-poppinsSemi w-full text-white text-center">
+                            Enjoy our Clients’ Feedback
+                        </p>
+                    </div>
+                    <div>
+                        <p class="text-[14px] font-poppins text-white w-full text-center">
+                            Plant managers and site owners on working with us.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- bottom -->
+            <div
+                class="flex w-full flex-col lg:flex-row items-center justify-between gap-[30px]">
+                <div
+                    class="w-full max-w-[570px] aspect-video shrink-0  bg-[#fab700b3]/70 bg-[url(../imgs/imgi_47_video-bg.jpg)] bg-blend-overlay bg-cover bg-center bg-no-repeat flex justify-center items-center">
+                    <a href="#" class="w-[50px] h-[50px] text-white ">
+                        <img src="imgs/imgi_9_play-btn.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <!-- start slider -->
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="flex justify-start items-center gap-[20px] pb-[15px]">
+                                    <div class="">
+                                        <span class="font-poppins text-[18px] text-white">
+                                            Fannie Rowe
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="">
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[#6B6B6B] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[#6B6B6B] w-[14px] h-[14px]"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p
+                                        class="font-poppins text-[14px] text-white w-full">
+                                        They rebuilt our packaging line over a single weekend shutdown. The crew was on
+                                        time, the site was clean, and production restarted on Monday morning exactly as
+                                        promised.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex justify-start items-center gap-[20px] pb-[15px]">
+                                    <div class="">
+                                        <span class="font-poppins text-[18px] text-white">
+                                            Marcus Hale
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="">
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[#6B6B6B] w-[14px] h-[14px]"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p
+                                        class="font-poppins text-[14px] text-white w-full">
+                                        Clear quotes, a dedicated project lead and a short progress report every week.
+                                        Our new warehouse racking and lighting were finished two weeks ahead of
+                                        schedule.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex justify-start items-center gap-[20px] pb-[15px]">
+                                    <div class="">
+                                        <span class="font-poppins text-[18px] text-white">
+                                            Priya Nolan
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="">
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                            <i class="fa-solid fa-star text-[orange] w-[14px] h-[14px]"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p
+                                        class="font-poppins text-[14px] text-white w-full">
+                                        Their maintenance team answers at any hour. When a boiler pump failed in the
+                                        night, an engineer was on site within ninety minutes and the plant never
+                                        stopped.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <!-- end slider -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end feedback -->
+
+    <!-- start blog -->
+    <section class="py-[110px]">
+        <div class="myContainer flex gap-[20px] items-center flex-col justify-center text-center">
+            <div class="flex pb-[50px] flex-col justify-center text-center w-full mx-w-[760px] mx-auto items-center">
+                <div>
+                    <p class="text-[36px] font-poppinsSemi w-full text-center">
+                        Latest posts from our Blog
+                    </p>
+                </div>
+                <div>
+                    <p class="text-[14px] font-poppins text-[#6B7474] w-full text-center">
+                        News, guides and lessons learned from our engineers and site crews.
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px]">
+                <div class="flex blogBox flex-col justify-center text-center">
+                    <div
+                        class="w-full aspect-[350/213] overflow-hidden">
+                        <img class="blogBoxImg w-full h-full object-cover transition-all" src="imgs/imgi_4_s3.jpg" alt="">
+                    </div>
+                    <div class="flex-col border-b-1 border-[#9B9C9B] items-center text-center justify-start pt-[15px]">
+                        <div class="flex justify-start items-center text-center gap-[15px]">
+                            <img class="w-[30px] h-[30px]" src="imgs/clientedit2.png" alt="">
+                            <span class="font-poppins text-[14px] text-[#9B9C9B]">Adele Gonzalez</span>
+                        </div>
+                        <div
+                            class="flex justify-start items-center text-center gap-[5px] font-poppins text-[14px] text-[#9B9C9B]">
+                            <ul
+                                class="flex pb-[10px] justify-start items-center text-center gap-[5px] font-poppins text-[14px] text-[#9B9C9B]">
+                                <li>18th</li>
+                                <li>sep</li>
+                                <li>
+                                    <i class="fa-regular fa-heart"></i>
+                                    15
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-comment"></i>
+                                    05
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-col justify-start items-center text-center pt-[30px] w-full">
+                        <div class="pb-[20px] text-start">
+                            <h3 class="font-poppins text-[18px] text-black blogBoxTitle transition-all">
+                                Stainless Process Lines: Inspection Basics
+                            </h3>
+                        </div>
+                        <div class="text-start">
+                            <p class="font-poppins text-[14px] text-[#9B9C9B]">
+                                What our engineers check on stainless tanks and pipework at every planned shutdown, and
+                                why the small welds matter most.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex blogBox flex-col justify-center text-center">
+                    <div
+                        class="w-full aspect-[350/213] overflow-hidden">
+                        <img class="blogBoxImg w-full h-full object-cover transition-all" src="imgs/imgi_12_b2.jpg" alt="">
+                    </div>
+                    <div class="flex-col border-b-1 border-[#9B9C9B] items-center text-center justify-start pt-[15px]">
+                        <div class="flex justify-start items-center text-center gap-[15px]">
+                            <img class="w-[30px] h-[30px]" src="imgs/clientedit2.png" alt="">
+                            <span class="font-poppins text-[14px] text-[#9B9C9B]">Adele Gonzalez</span>
+                        </div>
+                        <div
+                            class="flex justify-start items-center text-center gap-[5px] font-poppins text-[14px] text-[#9B9C9B]">
+                            <ul
+                                class="flex pb-[10px] justify-start items-center text-center gap-[5px] font-poppins text-[14px] text-[#9B9C9B]">
+                                <li>2nd</li>
+                                <li>sep</li>
+                                <li>
+                                    <i class="fa-regular fa-heart"></i>
+                                    12
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-comment"></i>
+                                    03
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-col justify-start items-center text-center pt-[30px] w-full">
+                        <div class="pb-[20px] text-start">
+                            <h3 class="font-poppins text-[18px] text-black blogBoxTitle transition-all">
+                                Planning a Loading Bay That Works All Year
+                            </h3>
+                        </div>
+                        <div class="text-start">
+                            <p class="font-poppins text-[14px] text-[#9B9C9B]">
+                                Doors, levellers, lighting and floor drainage: the details that decide whether a
+                                warehouse bay copes with winter.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex blogBox flex-col justify-center text-center">
+                    <div
+                        class="w-full aspect-[350/213] overflow-hidden">
+                        <img class="blogBoxImg w-full h-full object-cover transition-all" src="imgs/imgi_13_b3.jpg" alt="">
+                    </div>
+                    <div class="flex-col border-b-1 border-[#9B9C9B] items-center text-center justify-start pt-[15px]">
+                        <div class="flex justify-start items-center text-center gap-[15px]">
+                            <img class="w-[30px] h-[30px]" src="imgs/clientedit2.png" alt="">
+                            <span class="font-poppins text-[14px] text-[#9B9C9B]">Adele Gonzalez</span>
+                        </div>
+                        <div
+                            class="flex justify-start items-center text-center gap-[5px] font-poppins text-[14px] text-[#9B9C9B]">
+                            <ul
+                                class="flex pb-[10px] justify-start items-center text-center gap-[5px] font-poppins text-[14px] text-[#9B9C9B]">
+                                <li>21st</li>
+                                <li>Aug</li>
+                                <li>
+                                    <i class="fa-regular fa-heart"></i>
+                                    21
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-comment"></i>
+                                    04
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-col justify-start items-center text-center pt-[30px] w-full">
+                        <div class="pb-[20px] text-start">
+                            <h3 class="font-poppins text-[18px] text-black blogBoxTitle transition-all">
+                                Night Shifts: Lighting a Plant for Safe Work
+                            </h3>
+                        </div>
+                        <div class="text-start">
+                            <p class="font-poppins text-[14px] text-[#9B9C9B] w-[80%]">
+                                How we survey and relight process areas so night crews can see hazards clearly 
+                                without glare.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end blog -->
+
+    <!-- start footer -->
+    <footer id="site-footer" class="bg-[#04091E] py-[110px]">
+        <div class="myContainer items-baseline grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px]">
+
+            <div class="flex flex-col justify-center text-start">
+                <div class="pb-[20px]">
+                    <span class="font-poppins text-[18px] text-white">
+                        About Us
+                    </span>
+                </div>
+                <div class="pb-[40px]">
+                    <p class="font-poppins text-[14px] text-[#8c8c94] w-full">
+                        Industry is an engineering and construction contractor for manufacturers, warehouses and
+                        utilities since 1998.
+                    </p>
+                </div>
+                <div>
+                    <p class="font-poppins text-[14px] text-[#8c8c94]">
+                        Copyright ©2026 All rights reserved | Developed <br>
+                        <i class="fa-regular fa-heart text-[#FAB700]"></i> by <a href="#"
+                            class="text-[#FAB700] underline">Mohammad Ghiyasvand</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-center text-start md:pl-[60px]">
+                <div class="pb-[20px]">
+                    <span class="font-poppins text-[18px] text-white">
+                        Newsletter
+                    </span>
+                </div>
+                <div class="pb-[20px]">
+                    <p class="font-poppins text-[14px] text-[#8c8c94]">
+                        Stay updated with our latest news
+                    </p>
+                </div>
+                <div class="w-full max-w-full">
+                    <form action=""
+                        class=" font-poppins text-[14px] flex w-full max-w-[420px] flex-nowrap gap-0  text-[#8c8c94] bg-transparent  text-start">
+                        <input class="bg-white text-start px-4 py-[12px] flex-1 min-w-0 w-0" type="email"
+                            placeholder="Enter Email">
+                        <button class="bg-[#FAB700] cursor-pointer py-[12px] px-[18px] shrink-0 "><i
+                                class="fa-solid fa-arrow-right-long"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-center text-start  lg:pl-[100px] xl:pl-[80px]">
+                <div class="pb-[20px]">
+                    <span class="font-poppins text-[18px] text-white">
+                        Follow Us
+                    </span>
+                </div>
+                <div class="pb-[20px]">
+                    <p class="font-poppins text-[14px] text-[#8c8c94]">
+                        Let us be social
+                    </p>
+                </div>
+                <div>
+                    <ul class="flex gap-x-5 text-white">
+                        <li class="hover:text-[#FAB700] transition-all">
+                            <a href="#" class="">
+                                <i class="fa-brands fa-facebook-f "></i>
+                            </a>
+                        </li>
+                        <li class="hover:text-[#FAB700] transition-all">
+                            <a href="#">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="hover:text-[#FAB700] transition-all">
+                            <a href="#">
+                                <i class="fa-brands fa-dribbble"></i>
+                            </a>
+                        </li>
+                        <li class="hover:text-[#FAB700] transition-all">
+                            <a href="#">
+                                <i class="fa-brands fa-behance"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+    <!-- js sweetAlert library -->
+    <script src="sweetAlertLibrary/sweetAlertLibraryJs/sweetalert2.all.min.js"></script>
+    <!-- js swiper library -->
+    <script src="swiperlibrary/swiperlibraryjs/swiper-bundle.min.js"></script>
+    <!-- js counter library -->
+    <script src="jsCounterLibrary/purecounter_vanilla.js"></script>
+    <!-- js -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
