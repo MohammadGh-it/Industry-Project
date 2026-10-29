@@ -99,7 +99,6 @@ const swiper = new Swiper('.swiper', {
 // end swiper slider library
 
 // start alert
-
 document.addEventListener("DOMContentLoaded", () => {
     const footer =
         document.querySelector("#site-footer") ||
@@ -185,5 +184,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     footerObserver.observe(footer);
 });
-
 // end alert

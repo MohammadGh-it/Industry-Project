@@ -36,9 +36,6 @@
 
 /* utilities  */
 @layer utilities {
-    /* .myContainer {
-        @apply w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px] mx-auto
-    } */
 /* start edit response */
     .myContainer {
         @apply w-full max-w-[540px] px-4 mx-auto;
